@@ -1,0 +1,7 @@
+Find Maximum
+Write a function max_of_all that returns the larger of numbers.
+
+
+
+Count Vowels
+Write a function count_vowels(word) that counts how many vowels (a, e, i, o, u) are in the string.

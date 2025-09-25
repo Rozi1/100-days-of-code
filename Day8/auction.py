@@ -1,6 +1,6 @@
 import os
 import auction_art
-
+print(auction_art.logo)
 bidders = {}
 while True:
     name = input("What's your name? ")

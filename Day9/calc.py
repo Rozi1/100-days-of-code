@@ -47,10 +47,13 @@ def caclulator():
             print(f"{first_number} / {second_number} = {result}")
         else:
             print("An Invalid Operation Selected!!!")
-        should_continue = input(f"Type 'y' to continue calculating with {result}, or type 'n' to start a new calculation: ").lower()
+        should_continue = input(f"Type 'y' to continue calculating with {result}, or type 'n' to start a new calculation or 'q' to Quit: ").lower()
         if should_continue == 'n':
             caclulator()
         elif should_continue == 'y':
             first_number = result
             continue
+        elif should_continue == 'q':
+            break
+
 caclulator()
